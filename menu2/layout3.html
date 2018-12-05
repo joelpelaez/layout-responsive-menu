@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid System</title>
+    <meta name="viewport" content="width=device-width;initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .content > div[class*="col-"] {
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Encabezado principal</h1>
+                <nav>
+                    <li>
+                        <a href="#">Link 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Link 2</a>
+                    </li>
+                    <li>
+                        <a href="#">Link 3</a>
+                    </li>
+                    <li>
+                        <a href="#">Link 4</a>
+                    </li>
+                    <li>
+                        <a href="#">Link 5</a>
+                    </li>
+                </nav>
+            </div>
+        </div>
+        <div class="row content">
+            <div class="col-xs-12 col-md-9 col-lg-10">
+                <section>
+                    <h2>Contenido</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dicta, dolor expedita facere
+                        illo illum ipsum non possimus quisquam repellat. Culpa eum inventore labore modi, natus odio
+                        quaerat quod sed!</p>
+                    <p>Amet consectetur dolores explicabo fuga molestiae officia officiis, possimus sit totam voluptas.
+                        At et minus officiis omnis quos. Deleniti doloribus esse ipsam iure nostrum omnis pariatur,
+                        quasi sapiente similique suscipit.</p>
+                    <p>Ad labore mollitia qui? Autem culpa in nemo vitae? Accusantium culpa cumque delectus facilis hic
+                        laudantium officia reiciendis. Dolor ea hic modi obcaecati quasi sequi! Dolore facere nesciunt
+                        nulla sed!</p>
+                </section>
+            </div>
+            <div class="col-xs-12 col-md-3 col-lg-2">
+                <h3>Opciones</h3>
+                <ul>
+                    <li><a href="#">Opción 1</a></li>
+                    <li><a href="#">Opción 2</a></li>
+                    <li><a href="#">Opción 3</a></li>
+                    <li><a href="#">Opción 4</a></li>
+                    <li><a href="#">Opción 5</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">Copyright</div>
+        </div>
+    </div>
+</body>
+</html>

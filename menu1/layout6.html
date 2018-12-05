@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid System</title>
+    <meta name="viewport" content="width=device-width;initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .content > div[class*="col-"] {
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">Top</div>
+    </div>
+    <div class="row content">
+        <div class="col-xs-12 col-md-2">Column 1</div>
+        <div class="col-xs-12 col-md-8">
+            <h2>Contenido</h2>
+            <section>
+                <h3>Otro título</h3>
+                <article>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad aperiam, blanditiis delectus ea
+                        eligendi esse est eveniet in inventore maxime, necessitatibus, nostrum numquam quidem recusandae
+                        sunt tempore vel! Beatae.</p>
+                    <p>Aspernatur consequuntur culpa cumque, debitis delectus doloremque illum minus numquam odit omnis
+                        provident quasi, repellendus sequi tempore unde voluptas, voluptates. Asperiores assumenda
+                        cumque et nemo odio odit similique suscipit voluptatum!</p>
+                </article>
+            </section>
+        </div>
+        <div class="col-xs-12 col-md-2">Column 3</div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">Footer</div>
+    </div>
+</div>
+</body>
+</html>

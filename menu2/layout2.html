@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid System</title>
+    <meta name="viewport" content="width=device-width;initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .content > div[class*="col-"] {
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <header>
+                <h1>Encabezado principal</h1>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#">Link 4</a>
+                        </li>
+                        <li>
+                            <a href="#">Link 5</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </div>
+    <div class="row content">
+        <div class="col-xs-12 col-md-8 col-lg-9">
+            <section>
+                <h2>Zona del sitio</h2>
+                <article>
+                    <h3>Título del articulo</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab autem commodi delectus doloremque ea
+                        est impedit ipsum labore nemo nesciunt pariatur possimus quaerat repudiandae sapiente sed,
+                        soluta vitae voluptatem voluptatum!</p>
+                    <p>Amet, facere fugit itaque quam suscipit tempora voluptatibus. Deleniti dicta doloribus error
+                        perspiciatis ratione unde voluptate voluptatem. Aliquid cupiditate, earum eius nemo odio
+                        officiis provident, sapiente sed, sunt totam veritatis.</p>
+                    <p>Aliquid autem dicta esse illum impedit maiores molestias necessitatibus perferendis sapiente, sed
+                        tempora tempore. Dolore labore optio perferendis voluptatum. Cum deserunt dolores ducimus ipsa
+                        iste minima, nesciunt nisi vel. Neque.</p>
+                </article>
+            </section>
+        </div>
+        <div class="col-xs-12 col-md-4 col-lg-3">
+            <h3>Opciones</h3>
+            <ul>
+                <li><a href="#">Opción 1</a></li>
+                <li><a href="#">Opción 2</a></li>
+                <li><a href="#">Opción 3</a></li>
+                <li><a href="#">Opción 4</a></li>
+                <li><a href="#">Opción 5</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">Copyright</div>
+    </div>
+</div>
+</body>
+</html>

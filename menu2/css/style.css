@@ -1,0 +1,52 @@
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 0;
+}
+
+nav a {
+    font-weight: bold;
+    color: #333333;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav a:hover {
+    background-color: #aaaaaa;
+    text-decoration: none;
+}
+
+p {
+    text-align: justify;
+}
+
+header nav span {
+    margin-right: 5px;
+}
+
+#menu {
+    font-size: 20px;
+    width: 100%;
+}
+
+#menu .bt-menu {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+#menu span {
+    float: right;
+}
